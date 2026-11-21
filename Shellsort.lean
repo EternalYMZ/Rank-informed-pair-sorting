@@ -1,5 +1,11 @@
 import Shellsort.PairLayerRelativeOrder
 import Shellsort.PairLayerInsertion
+import Shellsort.DisjointLayerEndpoints
+import Shellsort.DisjointLayerMean
+import Shellsort.PairLayerCostFormula
+import Shellsort.PairSlotUniformMean
+import Shellsort.Count
+import Shellsort.Exchange
 
 #print axioms Shellsort.PairLayerInsertion.crossed_pair_inversions
 #print axioms Shellsort.PairLayerInsertion.comparePair_then_insertion
@@ -23,9 +29,8 @@ import Shellsort.PairLayerInsertion
 #print axioms Shellsort.PairLayerRelativeOrder.even_pair_counts
 #check Shellsort.PairLayerRelativeOrder.odd_pair_counts
 #print axioms Shellsort.PairLayerRelativeOrder.odd_pair_counts
-import Shellsort.DisjointLayerEndpoints
-import Shellsort.DisjointLayerMean
-import Shellsort.PairLayerCostFormula
-import Shellsort.PairSlotUniformMean
-import Shellsort.Count
-import Shellsort.Exchange
+
+#print axioms Shellsort.DisjointLayerMean.disjoint_layer_mean
+#print axioms Shellsort.DisjointLayerMean.optimum_at_fixed_count
+#print axioms Shellsort.PairCount.unique
+#print axioms PairExchange.SL_improvement

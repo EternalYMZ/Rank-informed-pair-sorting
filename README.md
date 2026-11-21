@@ -2,7 +2,7 @@
 
 Miaozhen Yu (俞缪臻) · [Project S directory](https://github.com/EternalYMZ/Optimal-mean-costs-of-three-pass-Shellsort/blob/main/PROJECT-S.md)
 
-For every input in a linear order and every prescribed sequence of slot pairs, the successful compare-exchanges, the final ordinary insertion shifts, and the intervening-key corrections sum to the original insertion shifts. Overlapping gates and repeated keys are allowed. For predetermined disjoint pairs on distinct keys, additional roots check finite three- and four-key order counts, the maximum sum of interior spans, and the optimizing pair counts for that span expression. The uniform-input expected cost of the executed layer still needs a formal bridge between these results. Rank-informed pairing remains a separate problem.
+For every input and prescribed sequence of slot pairs, the actual successful exchanges, final ordinary insertion shifts and intervening-key corrections sum to the original insertion shifts. For disjoint pairs fixed in advance on a uniform permutation of distinct keys, Lean proves that the expected sum of successful exchanges and final shifts is n(n−1)/4 − (1/3)Σ(j−i−1). For fixed pair count it also identifies the maximum total interior span and an attaining matching. Rank-informed pairing is a separate problem.
 
 ## Check the Lean statements
 
