@@ -1,0 +1,7 @@
+import Shellsort.PairLayerInsertion
+
+#print axioms Shellsort.PairLayerInsertion.crossed_pair_inversions
+#print axioms Shellsort.PairLayerInsertion.comparePair_then_insertion
+#print axioms Shellsort.PairLayerInsertion.runGate_then_insertion
+#print axioms Shellsort.PairLayerInsertion.layer_then_insertion
+#print axioms Shellsort.PairLayerInsertion.interiorSaving_distinct
