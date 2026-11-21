@@ -17,4 +17,4 @@ lake build
 
 ## Proof guide
 
-[Read the proof idea in Chinese](brief.md). DisjointLayerMean and DisjointLayerEndpoints account for the uniform mean insertion movement of prescribed disjoint pairs. Count and Exchange give the arithmetic comparisons for pair counts and exchanges.
+[Read the proof guide](brief.md). DisjointLayerMean and DisjointLayerEndpoints account for the uniform mean insertion movement of prescribed disjoint pairs. Count and Exchange give the arithmetic comparisons for pair counts and exchanges.
