@@ -2,7 +2,7 @@
 
 Miaozhen Yu (俞缪臻) · [Project S directory](https://github.com/EternalYMZ/Optimal-mean-costs-of-three-pass-Shellsort/blob/main/PROJECT-S.md)
 
-For every input list in a linear order and every prescribed sequence of slot pairs, Lean proves an exact identity. The number of successful compare-exchanges, the subsequent ordinary insertion shifts, and the intervening-key corrections sum to the number of insertion shifts on the original list. Each correction uses the array just before its gate. Repeated keys and overlapping gates are allowed. Optimal pair selection and its expected cost require further results.
+For every input in a linear order and every prescribed sequence of slot pairs, the successful compare-exchanges, the final ordinary insertion shifts, and the intervening-key corrections sum to the original insertion shifts. Overlapping gates and repeated keys are allowed. For predetermined disjoint pairs on distinct keys, additional roots check finite three- and four-key order counts, the maximum sum of interior spans, and the optimizing pair counts for that span expression. The uniform-input expected cost of the executed layer still needs a formal bridge between these results. Rank-informed pairing remains a separate problem.
 
 ## Check the Lean statements
 

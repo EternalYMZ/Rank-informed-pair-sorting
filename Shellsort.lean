@@ -1,3 +1,4 @@
+import Shellsort.PairLayerRelativeOrder
 import Shellsort.PairLayerInsertion
 
 #print axioms Shellsort.PairLayerInsertion.crossed_pair_inversions
@@ -5,3 +6,20 @@ import Shellsort.PairLayerInsertion
 #print axioms Shellsort.PairLayerInsertion.runGate_then_insertion
 #print axioms Shellsort.PairLayerInsertion.layer_then_insertion
 #print axioms Shellsort.PairLayerInsertion.interiorSaving_distinct
+
+#check Shellsort.PairLayerRelativeOrder.raw_order_count
+#print axioms Shellsort.PairLayerRelativeOrder.raw_order_count
+#check Shellsort.PairLayerRelativeOrder.previous_order_count
+#print axioms Shellsort.PairLayerRelativeOrder.previous_order_count
+#check Shellsort.PairLayerRelativeOrder.raw_order_count_of_keys
+#print axioms Shellsort.PairLayerRelativeOrder.raw_order_count_of_keys
+#check Shellsort.PairLayerRelativeOrder.previous_order_count_of_keys
+#print axioms Shellsort.PairLayerRelativeOrder.previous_order_count_of_keys
+#check Shellsort.PairLayerRelativeOrder.spanSum_le
+#print axioms Shellsort.PairLayerRelativeOrder.spanSum_le
+#check Shellsort.PairLayerRelativeOrder.extremal_spans
+#print axioms Shellsort.PairLayerRelativeOrder.extremal_spans
+#check Shellsort.PairLayerRelativeOrder.even_pair_counts
+#print axioms Shellsort.PairLayerRelativeOrder.even_pair_counts
+#check Shellsort.PairLayerRelativeOrder.odd_pair_counts
+#print axioms Shellsort.PairLayerRelativeOrder.odd_pair_counts
