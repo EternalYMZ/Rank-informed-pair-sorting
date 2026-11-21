@@ -23,3 +23,9 @@ import Shellsort.PairLayerInsertion
 #print axioms Shellsort.PairLayerRelativeOrder.even_pair_counts
 #check Shellsort.PairLayerRelativeOrder.odd_pair_counts
 #print axioms Shellsort.PairLayerRelativeOrder.odd_pair_counts
+import Shellsort.DisjointLayerEndpoints
+import Shellsort.DisjointLayerMean
+import Shellsort.PairLayerCostFormula
+import Shellsort.PairSlotUniformMean
+import Shellsort.Count
+import Shellsort.Exchange

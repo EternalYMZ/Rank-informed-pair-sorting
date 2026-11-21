@@ -14,3 +14,7 @@ lake build
 ```
 
 [Shellsort.lean](Shellsort.lean) imports the included modules and prints the selected statements and their axioms. Sources and dependency revisions are pinned. Supporting modules may also occur in other paper repositories.
+
+## Proof guide
+
+[Read the proof idea in Chinese](brief.md). DisjointLayerMean and DisjointLayerEndpoints account for the uniform mean insertion movement of prescribed disjoint pairs. Count and Exchange give the arithmetic comparisons for pair counts and exchanges.
